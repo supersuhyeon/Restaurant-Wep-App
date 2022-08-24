@@ -2,7 +2,7 @@
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/94214512/186267108-2b6f01ae-2249-4f43-a1a8-54f61a17076b.gif)<br>
 Simple restaurant web app created with HTML, SCSS, JavaScript, and PWA. <br>
-[Restaurant-Web-App](https://ephemeral-babka-0232af.netlify.app/ "link to the Restaurant-Web-App Project")
+[Restaurant-Web-App](https://stalwart-taffy-a6285f.netlify.app/ "link to the Restaurant-Web-App Project")
 
 ## Goal of the project
 

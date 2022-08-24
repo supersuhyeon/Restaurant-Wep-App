@@ -1,0 +1,129 @@
+{
+
+    "foodItems" : [
+
+        {
+
+            "country" : "france",
+            "place" : "Bonjour Bagutte",
+            "reviews" : "3",
+            "src" : "./image/baguette.png"
+
+        },
+        {
+
+            "country" : "italy",
+            "place" : "Ciao Pasta",
+            "reviews" : "22",
+            "src" : "./image/pasta.png"
+
+        },
+        {
+
+            "type" : "best-seller",
+            "place" : "Exotic Thai Cafe",
+            "reviews" : "322",
+            "src" : "./image/pad-thai.png"
+
+        },
+        {
+            "country" : "china",
+            "place" : "Smile Chinese restaurant",
+            "reviews" : "8",
+            "src" : "./image/hot-pot.png"
+
+        },
+        {
+            "country" : "thailand",
+            "place" : "We Love Thai Food",
+            "reviews" : "5",
+            "src" : "./image/thai-food.png"
+        },
+        {
+
+            "country" : "india",
+            "place" : "Namaste New Deli Samosa",
+            "reviews" : "37",
+            "src" : "./image/samosa.png"
+        },
+        {
+
+            "country" : "china",
+            "place" : "Dim Dim Sum",
+            "reviews" : "52",
+            "src" : "./image/dimsum.png"
+        },
+        {
+            "country" : "italy",
+            "place" : "Have A Cheesy Day",
+            "reviews" : "9",
+            "src" : "./image/pizza.png"
+        },
+        {
+            "country" : "france",
+            "place" : "Good Morning Bread",
+            "reviews" : "3",
+            "src" : "./image/croissant.png"
+        },
+        {
+            "country" : "india",
+            "place" : "Happy Meal Time",
+            "reviews" : "5",
+            "src" : "./image/masala-papad.png"
+        },
+        {
+            "type" : "best-seller",
+            "place" : "Eat Play Love",
+            "reviews" : "722",
+            "src" : "./image/pasta-2.png"
+        },
+        {
+
+            "country" : "china",
+            "place" : "Nin-hao Great Mian",
+            "reviews" : "7",
+            "src" : "./image/chinese-food.png"
+        },
+        {
+            "country" : "india",
+            "place" : "Bollywood Spice",
+            "reviews" : "4",
+            "src" : "./image/chapati.png"
+        },
+        {
+            "country" : "france",
+            "place" : "Paris fresh noon",
+            "reviews" : "11",
+            "src" : "./image/souffle.png"
+        },
+        {
+            "type" : "best-seller",
+            "place" : "Beijing HaoChi",
+            "reviews" : "1050",
+            "src" : "./image/dumpling.png"
+        },
+        {
+            "country" : "thailand",
+            "place" : "Bangkok City Food",
+            "reviews" : "41",
+            "src" : "./image/pad-thai-2.png"
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+    ]
+
+
+
+
+
+}

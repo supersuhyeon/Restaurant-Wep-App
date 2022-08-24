@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+body {
+  background-color: black;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+body .mobile {
+  width: 400px;
+  height: 620px;
+  background-color: pink;
+  margin: auto;
+  margin-top: 100px;
+  border: 5px solid palevioletred;
+}
+
+body .mobile .logo {
+  padding: 20px 0 20px;
+}
+
+body .mobile .logo img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .mobile .logo img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .mobile .logo .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body .mobile .menu img {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .mobile .menu img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+body .mobile .listwrapper {
+  padding: 0;
+  overflow-y: auto;
+  height: 400px;
+}
+
+body .mobile .listwrapper .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+body .mobile .listwrapper .list.inactive {
+  display: none;
+}
+
+body .mobile .listwrapper .list img {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+body .mobile .sort {
+  background-color: palevioletred;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .mobile .sort:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=main.refactoring.css.map */

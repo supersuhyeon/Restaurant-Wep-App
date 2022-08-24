@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+
+
+      $width: 30px;
+      $height: 30px;
+      $color : pink;
+      @mixin img($ms:0.2s){
+        margin-right: 5px;
+        width: $width;
+        height: $height;
+        transition: $ms;
+      }
+      $transform : scale(1.1);
+
+  body{
+      background-color: black;
+      font : {
+        family: 'Signika Negative', sans-serif;
+        weight: 400;
+      }
+      margin: 0;
+      text-align: center;
+
+      .mobile{
+        width: 400px;
+        height: 620px;
+        background-color: $color;
+        margin: auto;
+        margin-top: 100px;
+        border: 5px solid palevioletred;
+  
+        .logo{
+          padding : 20px 0 20px;
+  
+          img{
+              width: 50px;
+              height: 50px;
+              cursor: pointer;
+              transition: 0.2s;
+              
+              &:hover{
+                  transform: $transform;
+                }
+          }
+          .text{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            
+       }
+  
+       .menu img{
+          
+    
+          &:hover{
+            transform: $transform;
+            cursor: pointer;
+          }
+
+          @include img($ms:0.2s)
+      }
+  
+      .listwrapper{
+          padding:0;
+          overflow-y: auto;
+          height: 400px;
+    
+          .list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin-bottom: 10px;
+            font-size: 18px;
+    
+            &.inactive{
+                display: none;
+              }
+    
+              img{
+           @include img($ms:none)
+              }
+        }
+      }
+  
+      .sort{
+          background-color: palevioletred;
+          border-radius: 5px;
+          border: none;
+          padding: 2px 5px 2px;
+          cursor: pointer;
+          margin-top: 10px;
+          transition: 0.2s;
+      
+          &:hover{
+            transform: $transform;
+               }
+      
+        }
+  
+  
+    }
+  }
+ 
+
+
+  
+
+  
+

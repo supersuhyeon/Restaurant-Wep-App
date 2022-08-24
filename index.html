@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sue's restaurant app</title>
+    <link rel="stylesheet" href="./css/main.refactoring.css">
+    <link rel="manifest" href="manifest.json" />
+    <script src="./javascript/main.js" defer></script>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+     </script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="mobile">
+
+
+            <div class="logo">
+                <img src="./image/restaurant-icon.png" alt="">
+                <div class="text">Click The Button Below!</div>
+            </div>
+
+
+            <div class="menu">
+
+                <img 
+                src="./image/best-seller.png" 
+                alt=""
+                data-key="type"
+                data-value="best-seller"
+                >
+
+                <img 
+                src="./image/france.png" 
+                alt=""
+                data-key="country"
+                data-value="france">
+                <img 
+                src="./image/thailand.png" 
+                alt=""
+                data-key="country"
+                data-value="thailand">
+                <img 
+                src="./image/italy.png" 
+                alt=""
+                data-key="country"
+                data-value="italy"
+                >
+                <img 
+                src="./image/india.png" 
+                alt=""
+                data-key="country"
+                data-value="india"
+                >
+                <img 
+                src="./image/china.png" 
+                alt=""
+                data-key="country"
+                data-value="china"
+                >
+
+             
+
+            </div>
+
+            <button class="sort">
+                ⭐️By rating⭐️
+            </button>
+
+            <ul class="listwrapper">
+               <!-- <li class="list">
+                   <img src="./image/baguette.png" alt="">
+                   <span>bonjour baguette, Reviews : (3)</span>
+               </li> -->
+            </ul>
+
+
+    </div>
+
+
+
+
+    </div>
+</body>
+</html>

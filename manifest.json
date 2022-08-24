@@ -1,0 +1,37 @@
+{
+  "background_color": "#ffffff",
+  "description": "Sue's Restaurant Web App",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Sue's Restaurant Web App",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Sue's Restaurant Web App",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "pwa-images/64x64.png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "pwa-images/192x192.png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa-images/48x48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "pwa-images/512x512.png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-images/28x28.png",
+      "sizes": "28x28"
+    }
+  ]
+
+}

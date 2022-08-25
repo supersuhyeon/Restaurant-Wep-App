@@ -19,35 +19,47 @@ HTML, SCSS, JavaScript
 
 1. When you click each flag icon, it will match up with the key value that represents the respective country's restaurants in the data.json file
 
-```c
-function onbtnHandler(event, foodItems){
-    const target = event.target.dataset
-    const key = target.key
-    const value = target.value
+```js
+function onbtnHandler(event, foodItems) {
+  const target = event.target.dataset;
+  const key = target.key;
+  const value = target.value;
 
-    if (key == null || value == null){
-         return // due to event delegation ('menu') so that only can work when the click the buttons
-       }
+  if (key == null || value == null) {
+    return; // due to event delegation ('menu') so that only can work when the click the buttons
+  }
 
-    showItems(foodItems.filter((foodItem)=>{return foodItem[key] === value}))
+  showItems(
+    foodItems.filter((foodItem) => {
+      return foodItem[key] === value;
+    })
+  );
 }
 ```
 
 2. When you click the "by rating" button, it will sort by the number of reviews
 
-```c
-function showItems(foodItems){
-    const listWrapper = document.querySelector('.listwrapper')
-    listWrapper.innerHTML = foodItems.map((foodItem)=>{return innerHtml(foodItem)}).join('')
+```js
+function showItems(foodItems) {
+  const listWrapper = document.querySelector(".listwrapper");
+  listWrapper.innerHTML = foodItems
+    .map((foodItem) => {
+      return innerHtml(foodItem);
+    })
+    .join("");
 
-    const sort = document.querySelector('.sort')
-    sort.addEventListener('click', ()=>{
-        return sortHandler(foodItems), sort.style.background = "yellow"})
-
+  const sort = document.querySelector(".sort");
+  sort.addEventListener("click", () => {
+    return sortHandler(foodItems), (sort.style.background = "yellow");
+  });
 }
 
-function sortHandler(foodItems){
-    showItems(foodItems.sort((a,b)=>{return b.reviews - a.reviews}))
+function sortHandler(foodItems) {
+  showItems(
+    foodItems.sort((a, b) => {
+      return b.reviews - a.reviews;
+    })
+  );
 }
 ```
 
